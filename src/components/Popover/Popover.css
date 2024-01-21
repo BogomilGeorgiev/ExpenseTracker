@@ -1,0 +1,16 @@
+.popover {
+  background-color: #359788;
+  font-weight: 300;
+  margin-left: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 53%;
+  left: 0;
+  transform: translate(-120%, -50%);
+  opacity: 1;
+  width: 70px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 5px;
+}

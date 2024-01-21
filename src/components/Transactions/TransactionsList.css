@@ -1,0 +1,21 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.list li {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.list li:hover .del-btn {
+  opacity: 1;
+}

@@ -1,0 +1,27 @@
+.minus {
+  border-right: 5px solid rgb(165, 33, 33);
+}
+
+.plus {
+  border-right: 5px solid rgb(22, 159, 50);
+}
+
+.hide {
+  display: none;
+}
+
+.del-btn {
+  cursor: pointer;
+  background-color: none;
+  border: 1;
+  color: #0a0101;
+  /* font-size: 5px; */
+  line-height: 17px;
+  padding: 2px 4px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(127%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}

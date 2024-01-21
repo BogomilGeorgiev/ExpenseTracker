@@ -1,0 +1,26 @@
+.trans-form-container input {
+  border: 2px solid rgb(79, 163, 187);
+  border-radius: 5px;
+  padding-left: 5px;
+  display: grid;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #0333e2;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border: 1px solid whitesmoke;
+  margin-top: 13px;
+  padding: 6px;
+  width: 100%;
+  font-style: italic;
+  font-size: 15px;
+}
+
+label {
+  display: inline-block;
+  margin: 4px 2px;
+}
